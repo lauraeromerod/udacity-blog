@@ -1,0 +1,77 @@
+.feature-title {
+  position: relative;
+  text-align: center;
+  font-family: "Bodoni Moda", serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.feature-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 36%;
+  border-top: 1px dotted #b6b6b6;
+}
+
+.feature-title::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 36%;
+  border-top: 1px dotted #b6b6b6;
+}
+
+.card {
+  margin: 7px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  height: 235px;
+}
+
+.card h3 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding: 0 10px 7px 10px;
+}
+
+.card p {
+  margin: 0;
+  padding: 0 10px 60px 10px;
+  font-family: "Bodoni Moda", serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px dotted #b6b6b6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.card-details a {
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #000;
+  transition: 0.3s all ease-in-out;
+}
+
+.card-details a:hover {
+  border: 1px solid #d2378c;
+}

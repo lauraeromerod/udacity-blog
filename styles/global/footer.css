@@ -1,0 +1,26 @@
+.pre-footer {
+  width: 100%;
+  text-align: center;
+}
+
+.pre-footer img {
+  max-width: 200px;
+  margin: 0 auto;
+  margin-bottom: -93px;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: #e7e7e7;
+  min-height: 150px;
+}
+
+.footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+}

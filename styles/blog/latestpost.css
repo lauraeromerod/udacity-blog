@@ -1,0 +1,79 @@
+.main-image img {
+  width: 100%;
+  margin: 30px 0 0 0;
+}
+
+.main-title {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.main-title h1 {
+  margin: 5px 0;
+}
+
+.main-details {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid #b6b6b6;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.main-details a {
+  font-weight: bold;
+  background: #238623;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.main-details a:hover {
+  background-color: #fff;
+  color: #238623;
+  border-color: #238623;
+  font-weight: bold;
+}
+
+.main-details time {
+  font-weight: bold;
+}
+
+.main-content {
+  font-family: "Bodoni Moda", serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.main-btn {
+  text-align: center;
+}
+
+.main-btn a {
+  display: block;
+  max-width: 190px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  color: #000;
+  border-bottom: 1px solid #b6b6b6;
+  font-weight: bold;
+}
+
+.main-btn a:hover {
+  color: white;
+  background-color: #000;
+}
+
+.main-btn img {
+  max-width: 70px;
+  padding: 10px;
+}

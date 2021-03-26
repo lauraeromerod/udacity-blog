@@ -1,0 +1,252 @@
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 30px;
+  }
+
+  .logo img {
+    max-width: 60px;
+  }
+
+  .menu {
+    font-size: 12px;
+  }
+
+  body {
+    padding-top: 90px;
+  }
+
+  .subscribe-container div {
+    width: 100%;
+  }
+
+  .wrapper {
+    padding: 0 40px;
+  }
+
+  .container--feature {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+
+  .feature-title::before {
+    display: none;
+  }
+
+  .feature-title::after {
+    display: none;
+  }
+
+  .card {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+
+  .card img {
+    height: 100%;
+  }
+
+  .card h3 {
+    padding: 5px 10px 0 10px;
+  }
+
+  .card p {
+    padding: 0 10px 10px 10px;
+  }
+
+  .card-details {
+    padding: 10px 15px 0 15px;
+  }
+
+  .article {
+    padding: 30px;
+  }
+
+  .article-title {
+    font-size: 30px;
+  }
+
+  .blog-category {
+    font-size: 10px;
+  }
+
+  .social-sharing a {
+    font-size: 15px;
+  }
+
+  .article-photo figcaption {
+    font-size: 10px;
+  }
+
+  .article-gallery {
+    display: block;
+  }
+
+  .article-photo {
+    margin-bottom: 10px;
+  }
+
+  .author-info p {
+    font-size: 10px;
+  }
+
+  .pre-footer--post img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 625px) {
+  .logo {
+    font-size: 40px;
+  }
+
+  .logo img {
+    max-width: 50px;
+  }
+
+  .main-title h1 {
+    font-size: 25px;
+  }
+
+  .feature-title {
+    font-size: 30px;
+  }
+
+  .card {
+    max-width: 360px;
+    min-height: 300px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .article-title {
+    font-size: 25px;
+  }
+
+  .article-author {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 625px) {
+  body {
+    padding-top: 60px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+
+  .logo span {
+    margin: 10px 0 10px 2px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .card-details {
+    padding: 10px 15px 0 15px;
+  }
+
+  .card p {
+    padding: 0 10px 10px 10px;
+  }
+
+  .subscribe-container div {
+    padding: 10px 20px;
+  }
+
+  .card h3 {
+    padding: 5px 10px 0 10px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .main-title h1 {
+    font-size: 16px;
+  }
+
+  .main-details {
+    font-size: 10px;
+  }
+
+  .main-btn a {
+    font-size: 10px;
+  }
+
+  .feature-title {
+    font-size: 22px;
+  }
+
+  .card {
+    max-width: 300px;
+    min-height: 300px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+
+  .subscribe-container span {
+    font-size: 30px;
+  }
+
+  .subscribe-container h3 {
+    font-size: 22px;
+  }
+
+  .form-input {
+    font-size: 10px;
+    width: 200px;
+  }
+
+  .article-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .article-content p {
+    font-size: 14px;
+  }
+
+  .article-photo figcaption {
+    font-size: 8px;
+  }
+
+  .article-quote p {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .article-quote footer {
+    font-size: 11px;
+    padding: 0;
+  }
+
+  .author-info p {
+    font-size: 8px;
+  }
+
+  .social-sharing a {
+    font-size: 12px;
+    margin-left: 7px;
+  }
+
+  .article-author {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .article {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
